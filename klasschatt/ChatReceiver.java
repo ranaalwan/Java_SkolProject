@@ -54,19 +54,4 @@ public class ChatReceiver extends Thread {
 
 }
 
-       /* try {
-            DatagramPacket packet = new DatagramPacket(new byte[1024], 1024);
-
-            while (true) {
-                System.out.println("Waiting for a message...");
-                multicastSocket.receive(packet);
-                String message = new String(packet.getData(), packet.getOffset(), packet.getLength());
-                System.out.println("Received:" + message);
-                chatArea.append(message + "\n");
-            }
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-    }
-
-*/
+     
